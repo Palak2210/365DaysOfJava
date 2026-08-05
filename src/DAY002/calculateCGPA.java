@@ -16,7 +16,7 @@ public class calculateCGPA {
     int sum=num1+num2+num3;
         System.out.println("Sum of three numbers: " + sum);
         int total=300;
-        double percentage=sum*100/total;
+        double percentage=(sum*100)/total;
         System.out.println(percentage);
         double cgpa=percentage/10;
         System.out.println(cgpa);
