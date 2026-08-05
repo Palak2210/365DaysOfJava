@@ -20,7 +20,7 @@ public class percentage {
         System.out.println("Enter Social.Studies number:");
         int social_studies=e.nextInt();
         int total_marks=maths+english+hindi+science+social_studies;
-        double percentage=total_marks*100/total;
+        double percentage=(total_marks*100.0)/total;
         System.out.println("Percentage of all five subjects are: " + percentage);
     }
 }
