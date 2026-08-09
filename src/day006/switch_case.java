@@ -8,6 +8,7 @@ public class switch_case {
         switch (age){
             case 14:
                 System.out.println("You are Child");
+                System.out.println("Enjoy");
                 break;
             case 30:
                 System.out.println("You are adult");
